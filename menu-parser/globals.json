@@ -1,6 +1,6 @@
 {
   "urlParameters": {
-    "domain": "http://assicanti.pt/wp-content/uploads",
+    "domain": "assicanti.pt/wp-content/uploads",
     "prefix": "Ementa-uptec",
     "to": "a",
     "extension": ".pdf"
@@ -16,7 +16,7 @@
     "fish": "PEIXE",
     "vegetarian": "VEGETARIANO"
   },
-  "configurations": {
-    "temp": "~/uptec-menu/files"
+  "appParameters": {
+    "name": "uptec-menu-api"
   }
 }
