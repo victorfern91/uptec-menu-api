@@ -1,5 +1,5 @@
 const PDFParser = require('pdf2json');
-
+// pdf constants
 const PDF_PARAMS = require('../globals').pdfParameters
 
 class Parser {
