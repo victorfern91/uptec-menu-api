@@ -1,0 +1,26 @@
+{
+  "name": "uptec-menu-api",
+  "version": "1.0.0",
+  "description": "A simple server which parses the weekly menu from UPTEC Tech Bar and exposes that information in a REST API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorfern91/uptec-menu-api.git"
+  },
+  "author": "Victor Fernandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorfern91/uptec-menu-api/issues"
+  },
+  "homepage": "https://github.com/victorfern91/uptec-menu-api#readme",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "pdf2json": "^1.1.7"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "urlParameters": {
+    "domain": "assicanti.pt/wp-content/uploads",
+    "prefix": "Ementa-uptec",
+    "to": "a",
+    "extension": ".pdf"
+  },
+  "pdfParameters": {
+    "monday": "SEGUNDA",
+    "tuesday": "TERÇA",
+    "wednesday": "QUARTA",
+    "thursday": "QUINTA",
+    "friday": "SEXTA",
+    "soup": "SOPA",
+    "meat": "CARNE",
+    "fish": "PEIXE",
+    "vegetarian": "VEGETARIANO"
+  },
+  "appParameters": {
+    "name": "uptec-menu-api"
+  }
+}
