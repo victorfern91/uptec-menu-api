@@ -4,6 +4,7 @@
   "description": "A simple server which parses the weekly menu from UPTEC Tech Bar and exposes that information in a REST API.",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
