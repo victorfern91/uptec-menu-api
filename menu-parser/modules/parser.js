@@ -1,4 +1,5 @@
 const PDFParser = require('pdf2json');
+const utils = require('./utils')
 // pdf constants
 const PDF_PARAMS = require('../globals').pdfParameters
 
@@ -15,7 +16,10 @@ class Parser {
         this.convertInformation(data)
         resolve(this.menu);
       });
-      this.pdfParser.on('pdfParser_dataError', reject);
+      this.pdfParser.on('pdfParser_dataError', err => {
+        utils.removeFile(this.file);
+        reject(err);
+      });
       this.pdfParser.loadPDF(this.file);
     });
   }
