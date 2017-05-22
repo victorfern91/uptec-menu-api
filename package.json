@@ -21,6 +21,7 @@
     "asyncawait": "^1.0.6",
     "express": "^4.15.3",
     "moment": "^2.18.1",
-    "pdf2json": "^1.1.7"
+    "pdf2json": "^1.1.7",
+    "prettyjson": "^1.2.1"
   }
 }

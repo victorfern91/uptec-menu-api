@@ -26,7 +26,7 @@ class Parser {
 
   convertInformation(pdfRawData) {
     this.items = pdfRawData.formImage.Pages[0].Texts
-      .slice(0, -3)
+      .slice(0, -4)
       .map(item => {
         return decodeURIComponent(item.R[0].T);
       })
@@ -93,8 +93,10 @@ class Parser {
     const lastIndex = secondMeal ? items.indexOf(secondMeal) : items.length;
 
     return items.slice(firstIndex, lastIndex)
+      .filter(item =>  item !== ' ')
       .join()
-      .replace(',', ' ');
+      .replace(/,\(.+\)/g, '') // remove soup composition
+      .replace(/,/g, ' ')
   }
 }
 
