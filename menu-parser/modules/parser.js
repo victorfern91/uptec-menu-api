@@ -26,7 +26,7 @@ class Parser {
 
   convertInformation(pdfRawData) {
     this.items = pdfRawData.formImage.Pages[0].Texts
-      .slice(0, -4)
+      .slice(0, -9)
       .map(item => {
         return decodeURIComponent(item.R[0].T);
       })

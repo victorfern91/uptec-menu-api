@@ -2,7 +2,7 @@
   "name": "uptec-menu-api",
   "version": "1.0.0",
   "description": "A simple server which parses the weekly menu from UPTEC Tech Bar and exposes that information in a REST API.",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
