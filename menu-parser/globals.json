@@ -19,5 +19,7 @@
   "appParameters": {
     "name": "uptec-menu-api"
   },
-  "portugalHolidays": []
+  "portugalHolidays": [
+    "01-01"
+  ]
 }
